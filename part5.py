@@ -30,7 +30,7 @@ monthlist = ["January", "Feburary", "March", "April", "May", "June", "July", "Au
 if month not in monthlist:
   print("not a month")
 else:
- if monthlist.index(month) == 2:
+ if monthlist.index(month) == 3:
    print("28 or 29")
  elif monthlist.index(month) % 2 == 0 or monthlist.index(month) == 7:
   print("31")
